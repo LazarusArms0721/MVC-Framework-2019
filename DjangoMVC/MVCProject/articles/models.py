@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from django.db import models
+
+class Article(models.Model):
+	title = models.CharField(max_length = 100)
+	slug = models.SlugField()
+	body = models.TextField()
+	date = models.DateTimeField(auto_now_add = True)
+	# add in thumbnail, author later
+
+	def __str__(self):
+		return self.title
+		return self.body
