@@ -1,0 +1,9 @@
+body {
+	background: #212121;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+body* {
+	font-family: Proxima Nova;
+}

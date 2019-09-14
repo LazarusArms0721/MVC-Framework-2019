@@ -12,4 +12,6 @@ class Article(models.Model):
 
 	def __str__(self):
 		return self.title
-		return self.body
+
+	def snippet(self):
+		return self.body[:50] + '...'
