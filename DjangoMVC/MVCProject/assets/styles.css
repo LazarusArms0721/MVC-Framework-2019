@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: local('Proxima'),
+       url('/fonts/proxima/ProximaNova-Regular.otf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: local('Proxima-light'),
+       url('/fonts/proxima/Proxima Nova Alt Light.otf') format("truetype");
+}
+
+
 body {
 	background: #212121;
 	background-repeat: no-repeat;
@@ -6,4 +19,17 @@ body {
 
 body* {
 	font-family: Proxima Nova;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Proxima Nova;
+}
+
+p {
+	font-family: Proxima Nova;
+}
+
+a {
+	color: #2196f3;
+	text-decoration: none;
 }
