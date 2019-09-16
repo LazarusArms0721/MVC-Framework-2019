@@ -1,0 +1,26 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Articles</title>
+	<link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+	<ul class="top-menu-bar">
+	  <li><a href="/">Home</a></li>
+	  <li><a href="/articles">Articles</a></li>
+	  <li><a href="#">Contact</a></li>
+	  <li><a href="/about">About</a></li>
+	</ul>
+
+	<div class="wrapper">
+
+	{% block content %}
+
+
+
+	{% endblock %}
+	</div>
+</body>
+</html>
