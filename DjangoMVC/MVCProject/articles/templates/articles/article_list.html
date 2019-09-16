@@ -2,12 +2,12 @@
 
 
 {% block content %}
-
-	<h1>Article list</h1>
+<div class="content-wrapper">
+	<h1 id="article-list-title">Article list</h1>
 	<div class="articles">
 		
 		{% for article in articles %}
-		<div class="artile">
+		<div class="article">
 			<h2><a href="#">{{article.title}}</a></h2>
 			<p>{{article.slug}}</p>
 			<!-- <p>{{article.body}}</p> -->
@@ -17,6 +17,7 @@
 		</div>
 		{% endfor %}
 	</div>
+</div>
 
 {% endblock%}
 
