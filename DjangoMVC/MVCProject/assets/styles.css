@@ -12,9 +12,10 @@
 
 
 body {
-	background: #212121;
+	background: #2d2d2d;
 	background-repeat: no-repeat;
 	color: #fff;
+	margin: 0;
 }
 
 body* {
@@ -30,6 +31,37 @@ p {
 }
 
 a {
+	font-family: Proxima Nova;
 	color: #2196f3;
 	text-decoration: none;
+}
+
+.top-menu-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #212121;
+  height: 70px;
+}
+
+.top-menu-bar li {
+	float: left;
+	padding: 11px;
+}
+
+.top-menu-bar li:hover {
+	background-color: #80cbc4;
+}
+
+.top-menu-bar li a:hover {
+	color: #000;
+}
+
+.top-menu-bar li a {
+	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
 }
